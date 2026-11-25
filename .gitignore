@@ -1,0 +1,31 @@
+﻿.env
+.env.*
+!.env.example
+
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+node_modules/
+nlp/.next/
+nlp/out/
+
+datasets/
+data/
+backend/models/
+*.pt
+*.pth
+*.ckpt
+*.safetensors
+
+dist/
+build/
+.vscode/
+.DS_Store
+Thumbs.db
+# Local test output and archive metadata
+.gemini/endpoint_e2e_results.json
+__MACOSX/
+# Local logs and generated training data
+*.log
+backend/ml/data_cache/
